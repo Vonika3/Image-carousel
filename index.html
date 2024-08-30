@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Slider</title>
+  <link rel="stylesheet" href="style.css">
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+
+</head>
+<body>
+    <h1 class="carousel-heading">Our Beautiful Gallery</h1>
+  <div class="slider">
+
+    <div class="slider-item active">
+      <img src="https://picsum.photos/id/200/400" alt="Image 1" onerror="this.src='https://via.placeholder.com/600x400?text=Image+Not+Available'">
+    </div>
+    <div class="slider-item">
+      <img src="https://picsum.photos/id/300/400" alt="Image 2" onerror="this.src='https://via.placeholder.com/600x400?text=Image+Not+Available'">
+    </div>
+    <div class="slider-item">
+      <img src="https://picsum.photos/id/400/400" alt="Image 3" onerror="this.src='https://via.placeholder.com/600x400?text=Image+Not+Available'">
+    </div>
+    <div class="slider-item">
+      <img src="https://picsum.photos/id/500/400"alt="Image 4" onerror="this.src='https://via.placeholder.com/600x400?text=Image+Not+Available'">
+    </div>
+    <div class="slider-item">
+      <img src="https://picsum.photos/id/100/400" alt="Image 5" onerror="this.src='https://via.placeholder.com/600x400?text=Image+Not+Available'">
+    </div>
+
+    <div class="slider-btns">
+      <button id="btn-prev">
+        <ion-icon name="chevron-back-outline"></ion-icon>
+      </button>
+      <button id="btn-next">
+        <ion-icon name="chevron-forward-outline"></ion-icon>
+      </button>
+    </div>
+
+    <div class="dots">
+      
+    </div>
+
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
